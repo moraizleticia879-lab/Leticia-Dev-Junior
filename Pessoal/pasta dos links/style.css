@@ -1,0 +1,9 @@
+:root {
+  /* Fundo da página - Camada escura + Imagem na pasta correta */
+  --bg: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6)), url('assents/imagens/amanhecer.png') center / cover fixed;
+  --ink: #ffffff; /* Letras brancas */
+  --muted: rgba(255, 255, 255, 0.85); /* Letras secundárias mais claras para melhorar a leitura */
+  box-sizing: border-box;
+  padding-top: env(safe-area-inset-top, 0px);
+  padding-bottom: env(safe-area-inset-bottom, 0px);
+}
